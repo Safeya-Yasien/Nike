@@ -1138,4 +1138,42 @@ footer button
         transform: translate(190px);
     }
 
+    .review .container
+    {
+        justify-content: space-between;
+    }
+
+    .review header h1
+    {
+        font-size: 40px;
+    }
+
+    .review .container .container-box
+    {
+        max-width: 318px;
+    }
+
+    .services header h1
+    {
+        font-size: 40px;
+
+    }
+
+    .services .boxs
+    {
+        width: 100%;
+    }
+
+    .welcome-back
+    {
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 410px;
+    }
+
+    .welcome-back .section1 img
+    {
+        height: 350px;
+    }
+
 }
