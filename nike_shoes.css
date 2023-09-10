@@ -1111,6 +1111,7 @@ footer button
     .products .products-images .image-box
     {
         max-width: 238px;
+        margin-bottom: 10px;
     }
 
     .about header h1
@@ -1122,12 +1123,13 @@ footer button
     {
         gap: 20px;
         flex-wrap: wrap;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     .about .container .section2
     {
-        transform: translateX(168px);
+        /* transform: translateX(168px); */
+        transform: translateX(144px);
     }
 
     .about .container .section2 img
@@ -1137,7 +1139,13 @@ footer button
 
     .about .container .section3
     {
-        transform: translate(190px);
+        /* transform: translate(190px); */
+        transform: translate(190px, 20px);
+    }
+
+    .about .container .section4
+    {
+        margin-top: 40px;
     }
 
     .review .container
@@ -1159,6 +1167,8 @@ footer button
     .review .container .container-box
     {
         max-width: 318px;
+        margin-bottom: 10px;
+
     }
 
     .services header h1
