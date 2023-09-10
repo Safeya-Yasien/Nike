@@ -1105,6 +1105,7 @@ footer button
     {
         gap: 20px;
         margin: 30px 30px;
+        justify-content: space-between;
     }
 
     .products .products-images .image-box
