@@ -1035,147 +1035,64 @@ footer button
 {
     .home
     {
-        background-image: url(../images/color-circle.png);
         background-size: contain;
-        background-position: top;
         background-repeat: no-repeat;
-        gap: 20px;
-        align-items: center;
-        height: 550px;
-
-    }
-
-    .home .description
-    {
-        margin-left: 15px;
+        background-position: center;
+        height: 600px;
+        position: relative;
     }
 
     .home .description h1
     {
-        font-size: 47px;
-        position: static;
-        line-height: 50px;
+        font-size: 45px;
+        position: relative;
+        top: 60px;
+        left: 20px;
+        line-height: 45px;
     }
 
     .home .description h1 span
     {
-        font-size: 65px;
+        font-size: 55px;
     }
 
     .home .description .text
     {
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 1.6;
-        font-size: 13px;
-        position: static;
-        width: auto;
+
+        position: relative;
+        top: 65px;
+        left: 25px;
+        /* width: auto; */
+        width: 355px;
     }
 
     .home .img
     {
         position: relative;
-        left: 98px;
-        top: 15px;
+        top: 90px;
+        left: 57px;
+
     }
 
     .home .img img
     {
-        width: 300px;
+        width: 260px;
         height: auto;
     }
 
     .home .social-icons
     {
+        /* position: static; */
         position: relative;
-        left: 83px;
-        top: -70px;
+        left: 101px;
     }
 
     .home .shop-now
     {
-        width: 1000px;
-        position: relative;
-        left: -400px;
+
+        position: absolute;
         bottom: 0px;
-        align-self: end;
+        left: 30%;
     }
-
-    .products .header h1
-    {
-        font-size: 40px;
-
-    }
-
-    .products .products-images
-    {
-        gap: 34px;
-        justify-content: flex-start;
-    }
-
-    .products .products-images .image-box
-    {
-        max-width: 200px;
-    }
-
-    .about header h1
-    {
-        font-size: 40px;
-    }
-
-    .about .container .section1
-    {
-        transform: translate(20px, 5px);
-    }
-
-    .about .container .section2
-    {
-        height: fit-content;
-        transform: none;
-    }
-
-    .about .container .section2 img
-    {
-        height: 250px;
-    }
-
-    .review header h1
-    {
-        font-size: 40px;
-    }
-
-    .review .container .container-box
-    {
-        max-width: 295px;
-    }
-
-    .review .container
-    {
-        gap: 18px;
-        justify-content: space-between;
-    }
-
-
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
