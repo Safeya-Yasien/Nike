@@ -1122,6 +1122,7 @@ footer button
     {
         gap: 20px;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .about .container .section2
@@ -1143,6 +1144,11 @@ footer button
     {
         margin: 20px 20px;
         justify-content: space-between;
+    }
+
+    .review
+    {
+        margin: 40px 30px;
     }
 
     .review header h1
