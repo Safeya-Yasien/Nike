@@ -798,7 +798,8 @@ footer button
 
 
 /* Smartphones (portrait and landscape) ---------- */
-@media screen and (min-width: 320px) and (max-width: 480px)
+/* @media screen and (min-width: 320px) and (max-width: 480px) */
+@media screen and (max-width: 768px)
 {
     .top .nav
     {
@@ -1194,4 +1195,57 @@ footer button
         height: 350px;
     }
 
+}
+
+@media (min-width: 1200px)
+{
+    .home
+    {
+        background-position: center;
+
+    }
+
+    .home .description .text
+    {
+        width: 400px;
+    }
+
+    .home .img
+    {
+        top: 200px;
+        left: 215px;
+    }
+
+    .home .social-icons
+    {
+        left: 213px;
+    }
+
+    .products .products-images
+    {
+        gap: 30px;
+    }
+
+    .about .container
+    {
+        gap: 30px;
+        justify-content: space-between;
+        margin: 0px 25px 0px 25px;
+    }
+
+    .about .container .section1
+    {
+        transform: translate(0px, 5px);
+    }
+
+    .about .container .section2
+    {
+        transform: translateX(0px);
+    }
+
+    .about .container .section3
+    {
+        width: 500px;
+        transform: translate(0px);
+    }
 }
